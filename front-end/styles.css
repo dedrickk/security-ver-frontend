@@ -65,6 +65,7 @@ body{
 .content h1{
     font-size: 76px;
     margin-top:20px;
+    font-weight: bolder;
 }
 .content p{
     margin-left: 0%;

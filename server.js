@@ -101,6 +101,11 @@ app.get('/logout', (req, res) => {
     });
 });
 
+app.listen(8000, () => {
+  console.log('Server started');
+  console.log('Navigate to http://localhost:3000');
+});
+
 app.listen(3000, () => {
   console.log('Server started');
   console.log('Navigate to http://localhost:3000');
